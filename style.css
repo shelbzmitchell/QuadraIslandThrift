@@ -70,6 +70,9 @@ section {
 .margin-below-40 {
   padding-bottom: 40px;
 }
+iframe {
+  width: 100%;
+}
 
 /* fonts */
 
@@ -183,7 +186,7 @@ and (min-width : 320px) {
     
   }
   .survey__survey {
-    overflow: auto;
+    overflow-y: auto;
     max-height: 700px;
     border: 1px solid black;
     padding: 30px;
