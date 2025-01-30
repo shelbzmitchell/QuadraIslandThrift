@@ -67,6 +67,9 @@ section {
     max-width: 1400px;
     margin:auto;
 }
+.margin-below-40 {
+  padding-bottom: 40px;
+}
 
 /* fonts */
 
@@ -217,6 +220,7 @@ and (min-width : 481px) {
     .header {
         display: flex;
         flex-wrap:nowrap;
+        min-height: 150px;
     }
     .header__title {
         display:flex;
