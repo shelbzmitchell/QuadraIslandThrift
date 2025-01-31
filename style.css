@@ -70,9 +70,10 @@ section {
 .margin-below-40 {
   padding-bottom: 40px;
 }
-iframe {
+/* iframe {
   width: 100%;
-}
+  height: 3950px !important;
+} */
 
 /* fonts */
 
@@ -122,6 +123,8 @@ h2, h4 {
   @media only screen
 and (min-width : 320px) {
 /* Styles */
+
+
 
   /* header */
 
@@ -186,11 +189,29 @@ and (min-width : 320px) {
     
   }
   .survey__survey {
-    overflow-y: auto;
-    max-height: 700px;
-    border: 1px solid black;
+    background-color: gray;
     padding: 30px;
     margin-bottom: 40px;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6fa1f2;
+    border-radius:60px;
+
+  }
+  .survey__survey:hover {
+    background-color:#0a3c8c;
+  }
+  .survey__survey a{
+    font-size: 40px;
+    line-height: 46px;
+    color: #ffffff;
+    text-wrap: wrap;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
   }
   .survey__survey-container {
     width: 100%;
@@ -215,10 +236,23 @@ and (min-width : 320px) {
     width: 18px;
 }
 }
+/* inbetween ------------------------*/
+
+/* @media only screen
+and (min-width : 340px) and (max-width: 480px) {
+  iframe {
+    height: 3900px;
+  }
+} */
 
   /* ----------------------DESKTOP------------------------- */
  @media only screen
 and (min-width : 481px) {
+
+  /* iframe {
+    width: 100%;
+    height: 2849px !important;
+  } */
 
     .header {
         display: flex;
@@ -246,6 +280,10 @@ and (min-width : 481px) {
       }
 
       /* main */
+
+      .survey__survey {
+        width: 500px;
+      }
 
       .aboutus__content {
         display: flex;
