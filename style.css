@@ -87,6 +87,7 @@ a:hover {
 .nav__link {
   /* background-color:#410B13 */
   color: #2F3B2B;
+  background-color: #D0D14E
 }
 h1,h2,h3,h4,h5,h6 {
   color: #2F3B2B;
@@ -124,7 +125,8 @@ h2, h4 {
   }
 
   h2 {
-    border-bottom:1px solid #2F3B2B;;
+    border-bottom:1px solid #2F3B2B;
+    box-shadow: 0 0.5rem #FFC099;
 
   }
 
@@ -214,9 +216,10 @@ and (min-width : 320px) {
     width: 50%; 
     font-size:26px;
     font-weight:600;
+    background-color: #D0D14E;
     }
   .nav__link:hover {
-    background-color:#D0D14E;
+    background-color:#FF6201;
     color:#2F3B2B;
   }
 
@@ -225,6 +228,9 @@ and (min-width : 320px) {
   .mission__intro-text {
     text-align: center;
     margin: 0 40px 40px 40px;
+  }
+  .idea h4 {
+    font-weight: 700;
   }
 
   .idea__text {
@@ -236,7 +242,7 @@ and (min-width : 320px) {
   .mission__mission-statement {
     padding: 5px;
     border: 1px solid #2F3B2B;
-    background-color: #D0D14E;
+    background-color: #FFC099;
     padding:20px;
   }
   .mission__mission-statement h4 {
@@ -261,10 +267,15 @@ and (min-width : 320px) {
     background-color: #D0D14E;
     border-radius:60px;
     border: 1px solid #2F3B2B;
+    box-shadow: 0.5rem 0.5rem #2F3B2B;
 
   }
   .survey__survey:hover {
     background-color:#FF6201;
+    box-shadow: none;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
     
   }
  
