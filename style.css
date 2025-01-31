@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    padding: 10px;
+    /* padding: 10px; */
 }
 ol, ul {
 	list-style: none;
@@ -66,6 +66,7 @@ section {
 #all {
     max-width: 1400px;
     margin:auto;
+    padding:10px;
 }
 .margin-below-40 {
   padding-bottom: 40px;
@@ -135,9 +136,11 @@ h2, h4 {
   h2 {
     font-size: 32px;
     margin-bottom: 26px;
+    font-weight:800;
   }
   h4 {
     font-size: 18px;
+    font-weight: 600;
   }
   .footer {
     font-size: 10px;
@@ -151,6 +154,26 @@ and (min-width : 320px) {
 
 
   /* header */
+  .banner {
+    width: 100%;
+    height:40px;
+  background-color:#84DCCF;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #410B13;
+  }
+  .banner__text {
+    width: 100%;
+    /* height: 40px; */
+    color: #410B13;
+    font-weight:700;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+  }
 
   .header {
     display: flex;
@@ -207,6 +230,9 @@ and (min-width : 320px) {
   .idea__text {
     margin-bottom: 20px;
   }
+  .idea__final-words {
+    margin: 60px 0 60px 0;
+  }
   .mission__mission-statement {
     padding: 5px;
     border: 1px solid #410B13;
@@ -234,10 +260,11 @@ and (min-width : 320px) {
     align-items: center;
     background-color: #84DCCF;
     border-radius:60px;
+    border: 1px solid #410B13;
 
   }
   .survey__survey:hover {
-    background-color:rgb(186, 31, 51);
+    background-color:#DE1A1A;
     /* color: #84DCCF; */
   }
   /* .survey__survey a:hover {
