@@ -56,7 +56,7 @@ table {
 }
 
 .underline {
-  border-bottom:1px solid black;
+  border-bottom:1px solid #410B13;
 }
 
 section {
@@ -70,10 +70,26 @@ section {
 .margin-below-40 {
   padding-bottom: 40px;
 }
-/* iframe {
-  width: 100%;
-  height: 3950px !important;
-} */
+/* colors */
+body, section, nav {
+  background-color: #F2CCCA;
+}
+p {
+  color:#410B13
+}
+a {
+  color:#91171F;
+}
+a:hover {
+  color:#DE1A1A;
+}
+.nav__link {
+  /* background-color:#410B13 */
+  color: #410B13;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #410B13;
+}
 
 /* fonts */
 
@@ -81,6 +97,9 @@ p, a {
     font-family: "Nunito Sans", serif;
     font-size:18px;
     line-height: 22px;
+}
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -101,6 +120,11 @@ h2, h4 {
     font-variation-settings:
       "wdth" 100,
       "YTLC" 500;
+  }
+
+  h2 {
+    border-bottom:1px solid #410B13;
+
   }
 
   .nav__link a {
@@ -152,7 +176,7 @@ and (min-width : 320px) {
   /* nav */
 
   .nav {
-    border: 1px solid black;
+    border: 1px solid #410B13;
     margin: 20px 0 40px 0;
   }
    .nav__link-grouping {
@@ -161,10 +185,16 @@ and (min-width : 320px) {
     justify-content: space-evenly;
    }
    .nav__link {
-    border: 1px solid black;
+    border: 1px solid #410B13;
     text-align: center;
     padding: 10px;
     width: 50%;
+    font-size:26px;
+    font-weight:600;
+  }
+  .nav__link:hover {
+    background-color:#DE1A1A;
+    color: #ffffff;
   }
 
   /* main */
@@ -179,17 +209,22 @@ and (min-width : 320px) {
   }
   .mission__mission-statement {
     padding: 5px;
-    border: 1px solid black;
-    background-color: lightgray;
+    border: 1px solid #410B13;
+    background-color: #91171F;
+    padding:20px;
   }
   .mission__mission-statement h4 {
     font-style: italic;
     font-weight: 700;
     text-align: center;
+    color: #ffffff;
+    margin-bottom:16px;
     
   }
+  .mission__text {
+    color: #ffffff;
+  }
   .survey__survey {
-    background-color: gray;
     padding: 30px;
     margin-bottom: 40px;
     width: 320px;
@@ -197,17 +232,21 @@ and (min-width : 320px) {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6fa1f2;
+    background-color: #84DCCF;
     border-radius:60px;
 
   }
   .survey__survey:hover {
-    background-color:#0a3c8c;
+    background-color:rgb(186, 31, 51);
+    /* color: #84DCCF; */
   }
-  .survey__survey a{
+  /* .survey__survey a:hover {
+    color:#84DCCF;
+  } */
+  .survey__survey-text {
     font-size: 40px;
     line-height: 46px;
-    color: #ffffff;
+    color: #410B13;
     text-wrap: wrap;
     text-align: center;
     font-style: italic;
@@ -226,7 +265,7 @@ and (min-width : 320px) {
 /* footer */
 .footer {
     padding: 40px 0 40px 0;
-    border-top: 1px solid black;
+    border-top: 1px solid #410B13;
 }
 .footer__left {
     margin-bottom: 10px;
