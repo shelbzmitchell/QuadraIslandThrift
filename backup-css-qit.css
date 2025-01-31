@@ -56,7 +56,7 @@ table {
 }
 
 .underline {
-  border-bottom:1px solid #2F3B2B;
+  border-bottom:1px solid #410B13;
 }
 
 section {
@@ -73,23 +73,23 @@ section {
 }
 /* colors */
 body, section, nav {
-  background-color: #FDDAAF;
+  background-color: #F2CCCA;
 }
 p {
-  color:#2F3B2B;
+  color:#410B13
 }
 a {
-  color:#074F57;
+  color:#91171F;
 }
 a:hover {
-  color:#FF6201;
+  color:#DE1A1A;
 }
 .nav__link {
   /* background-color:#410B13 */
-  color: #2F3B2B;
+  color: #410B13;
 }
 h1,h2,h3,h4,h5,h6 {
-  color: #2F3B2B;
+  color: #410B13;
 }
 
 /* fonts */
@@ -124,7 +124,7 @@ h2, h4 {
   }
 
   h2 {
-    border-bottom:1px solid #2F3B2B;;
+    border-bottom:1px solid #410B13;
 
   }
 
@@ -157,7 +157,7 @@ and (min-width : 320px) {
   .banner {
     width: 100%;
     height:40px;
-  background-color:#D0D14E;
+  background-color:#84DCCF;
   position: sticky;
   top: 0;
   display: flex;
@@ -168,7 +168,7 @@ and (min-width : 320px) {
   .banner__text {
     width: 100%;
     /* height: 40px; */
-    color: #2F3B2B;
+    color: #410B13;
     font-weight:700;
     text-align: center;
     font-size: 24px;
@@ -199,7 +199,7 @@ and (min-width : 320px) {
   /* nav */
 
   .nav {
-    border: 1px solid #2F3B2B;
+    border: 1px solid #410B13;
     margin: 20px 0 40px 0;
   }
    .nav__link-grouping {
@@ -208,16 +208,16 @@ and (min-width : 320px) {
     justify-content: space-evenly;
    }
    .nav__link {
-    border: 1px solid #2F3B2B;
+    border: 1px solid #410B13;
     text-align: center;
     padding: 10px;
-    width: 50%; 
+    width: 50%;
     font-size:26px;
     font-weight:600;
-    }
+  }
   .nav__link:hover {
-    background-color:#D0D14E;
-    color:#2F3B2B;
+    background-color:#DE1A1A;
+    color: #ffffff;
   }
 
   /* main */
@@ -235,20 +235,20 @@ and (min-width : 320px) {
   }
   .mission__mission-statement {
     padding: 5px;
-    border: 1px solid #2F3B2B;
-    background-color: #D0D14E;
+    border: 1px solid #410B13;
+    background-color: #91171F;
     padding:20px;
   }
   .mission__mission-statement h4 {
     font-style: italic;
     font-weight: 700;
     text-align: center;
-    color: #2F3B2B;
+    color: #ffffff;
     margin-bottom:16px;
     
   }
   .mission__text {
-    color: #2F3B2B;;
+    color: #ffffff;
   }
   .survey__survey {
     padding: 30px;
@@ -258,20 +258,22 @@ and (min-width : 320px) {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D0D14E;
+    background-color: #84DCCF;
     border-radius:60px;
-    border: 1px solid #2F3B2B;
+    border: 1px solid #410B13;
 
   }
   .survey__survey:hover {
-    background-color:#FF6201;
-    
+    background-color:#DE1A1A;
+    /* color: #84DCCF; */
   }
- 
+  /* .survey__survey a:hover {
+    color:#84DCCF;
+  } */
   .survey__survey-text {
     font-size: 40px;
     line-height: 46px;
-    color: #2F3B2B;
+    color: #410B13;
     text-wrap: wrap;
     text-align: center;
     font-style: italic;
@@ -290,7 +292,7 @@ and (min-width : 320px) {
 /* footer */
 .footer {
     padding: 40px 0 40px 0;
-    border-top: 1px solid #2F3B2B;
+    border-top: 1px solid #410B13;
 }
 .footer__left {
     margin-bottom: 10px;
