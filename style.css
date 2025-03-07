@@ -77,6 +77,9 @@ section {
 ul {
   margin-bottom: 22px;
 }
+.word-break {
+  word-wrap: break-word;
+}
 
 /* colors */
 body, section, nav {
