@@ -25,6 +25,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
 	line-height: 1;
     /* padding: 10px; */
@@ -50,6 +53,11 @@ table {
   }
 
 /* default styles */
+.anchor:before {
+    padding-top:50px;
+    display:block;
+    content:"";
+}
 
 .italic {
     font-style:italic;
@@ -256,6 +264,24 @@ and (min-width : 320px) {
   .mission__intro-text {
     text-align: center;
     margin: 0 40px 40px 40px;
+  }
+  .mission__intro-now-accepting-container {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  }
+  .mission__intro-now-accepting {
+    /* background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(208,209,78,1) 100%); */
+    width:fit-content;
+    padding:20px;
+    text-align:center;
+    font-weight:700;
+    font-style: italic;
+    text-transform: uppercase;
+    
+  }
+  .mission__intro-now-accepting a {
+    font-size: 22px;
   }
   .idea h4 {
     font-weight: 700;
