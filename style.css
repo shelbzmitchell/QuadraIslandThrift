@@ -350,6 +350,22 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
 .donate__text {
   margin-bottom: 20px;
 }
+.donate__early-drop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* height: 500px; */
+}
+.donate__early-drop-left {
+  margin: 20px;
+}
+.donate__early-drop-left img {
+  width: 100%;
+  /* margin: 20px; */
+}
+
+
 
   .aboutus img {
     max-width: 100%;
@@ -416,6 +432,16 @@ and (min-width : 481px) {
 
       .survey__survey {
         width: 500px;
+      }
+
+      .donate__early-drop {
+        flex-direction: row;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        /* height: 500px; */
+      }
+      .donate__early-drop-right {
+        margin-top:20px;
       }
      
 
