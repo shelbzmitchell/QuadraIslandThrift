@@ -396,6 +396,14 @@ box-shadow: 0.5rem 0.5rem #2F3B2B;
     font-style: italic;
     font-weight: 800;
   }
+  .donate__pickup-button-link:hover {
+    background-color:#FF6201;
+    box-shadow: none;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+    
+  }
 
 .donate__do-dont {
   display: flex;
