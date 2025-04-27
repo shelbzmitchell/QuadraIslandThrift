@@ -445,6 +445,7 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
 }
 .donate__early-drop-left img {
   width: 100%;
+  max-width: 768px;
   /* margin: 20px; */
 }
 /* faq */
