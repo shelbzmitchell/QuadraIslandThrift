@@ -67,6 +67,10 @@ table {
   border-bottom:1px solid #2F3B2B;
 }
 
+.center {
+  text-align: center;
+}
+
 section {
     margin-bottom: 40px;
 }
@@ -475,6 +479,10 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
   .aboutus img {
     max-width: 100%;
     padding:0 0 24px 0
+  }
+  /* contact */
+  .contact .contact__text {
+    margin-bottom: 20px;
   }
 
 /* footer */
