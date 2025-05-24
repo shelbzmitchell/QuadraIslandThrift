@@ -198,7 +198,7 @@ and (min-width : 320px) {
   /* header */
   .banner {
     width: 100%;
-    height:40px;
+    height:50px;
     background-color:#FF6201;
   position: sticky;
   top: 0;
@@ -312,6 +312,22 @@ and (min-width : 320px) {
   .mission__intro-now-accepting a {
     font-size: 22px;
   }
+  .mission__hours {
+    background-color:#D0D14E;
+    border: 1px solid #2F3B2B;
+    padding: 20px;
+        width: fit-content;
+        margin: auto;
+  }
+.mission__hours p {
+  font-size: 26px;
+  line-height:28px;
+}
+div.mission__hours p.center.bold {
+  padding-bottom: 12px;
+  
+}
+
   .idea h4 {
     font-weight: 700;
   }
@@ -418,6 +434,7 @@ box-shadow: 0.5rem 0.5rem #2F3B2B;
 .donate__dont {
   /* border: 1px solid #2F3B2B; */
   padding: 20px;
+  width: 50%;
 /* width: 50%; */
   /* min-width: 440px; */
   margin: 20px;
@@ -497,7 +514,13 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
     margin: 10px;
     width: 18px;
 }
+.footer__acknowledgement {
+  text-align: center;
+  padding-bottom: 14px;
+
 }
+}
+
 /* inbetweeny specific ------------------------*/
 
 @media only screen
@@ -523,6 +546,10 @@ and (min-width : 481px) and (max-width: 786px) {
           flex-wrap:nowrap;
         }
       }
+      .donate__do,
+.donate__dont {
+  width: 100%;
+}
 /* --------------------------------------- */
 
 @media only screen
@@ -628,7 +655,7 @@ and (min-width : 481px) {
             padding-left: 20px;
         }
 
-        .footer {
+        .footer__bottom {
             display: flex;
             align-items:flex-end;
             justify-content: space-between;
