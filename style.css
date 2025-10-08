@@ -393,6 +393,16 @@ div.mission__hours p.center.bold {
     justify-content: center;
   }
 
+  .donate__note {
+    padding: 10px;
+    border: 1px solid #2F3B2B;
+    background-color: #FFC099;
+    margin-bottom: 20px;
+  }
+
+  .donate li {
+    padding-bottom: 6px;
+  }
   .donate__pickup-button {
     justify-content: flex-start;
   }
@@ -466,7 +476,7 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
 }
 .donate__early-drop-left img {
   width: 100%;
-  max-width: 768px;
+  /* max-width: 768px; */
   /* margin: 20px; */
 }
 /* faq */
@@ -517,6 +527,7 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
 .footer__acknowledgement {
   text-align: center;
   padding-bottom: 14px;
+  font-size: 12px;
 
 }
 }
@@ -599,6 +610,7 @@ and (min-width : 481px) {
         display: flex;
         flex-wrap:nowrap;
         min-height: 150px;
+        padding: 14px 0 0 14px;
     }
     .header__title {
         display:flex;
