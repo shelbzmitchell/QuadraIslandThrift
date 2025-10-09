@@ -198,7 +198,7 @@ and (min-width : 320px) {
   /* header */
   .banner {
     width: 100%;
-    height:50px;
+    height:70px;
     background-color:#FF6201;
   position: sticky;
   top: 0;
@@ -644,7 +644,10 @@ and (min-width : 481px) {
         
       }
 
-      
+      /* banner */
+       .banner {
+    height:50px;
+  }
 
       /* main */
 
