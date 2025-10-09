@@ -288,7 +288,7 @@ and (min-width : 320px) {
     color:#2F3B2B;
   }
 
-  /* main */
+  /* home */
 
   .mission__intro-text {
     text-align: center;
@@ -326,6 +326,9 @@ and (min-width : 320px) {
 div.mission__hours p.center.bold {
   padding-bottom: 12px;
   
+}
+.donation__update {
+  padding-bottom: 12px;
 }
 
   .idea h4 {
