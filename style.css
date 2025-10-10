@@ -187,6 +187,11 @@ h2, h3, h4 {
     list-style: disc;
     margin-left: 20px;
   }
+  .chicle-regular {
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
   /* ----------------------MOBILE------------------------- */
   @media only screen
@@ -206,6 +211,7 @@ and (min-width : 320px) {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #410B13;
+  z-index: 16;
   }
   .banner__text {
     width: 100%;
@@ -262,10 +268,11 @@ and (min-width : 320px) {
   .nav {
     border: 1px solid #2F3B2B;
     /* margin: 20px 0 40px 0; */
-    position: sticky;
+    /* position: sticky; */
     top: 40px;
     margin-bottom:20px;
     flex-wrap:wrap;
+    z-index: 12;
   }
    .nav__link-grouping {
     width: 100%;
@@ -287,6 +294,16 @@ and (min-width : 320px) {
     background-color:#FF6201;
     color:#2F3B2B;
   }
+  /* .nav__link-grouping--fashion {
+
+  } */
+  .nav__link--fashion {
+    width: 100%;
+    background:#7EBDC2;  
+}
+.nav__link--fashion:hover {
+background:#FFC099;
+}
 
   /* home */
 
@@ -366,14 +383,15 @@ div.mission__hours p.center.bold {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D0D14E;
+    /* background-color: #D0D14E; */
+    background-color: #7EBDC2;
     border-radius:60px;
     border: 1px solid #2F3B2B;
     box-shadow: 0.5rem 0.5rem #2F3B2B;
 
   }
   .survey__survey:hover {
-    background-color:#FF6201;
+    background-color:#FFC099;
     box-shadow: none;
     position: relative;
     top: 0.5rem;
@@ -394,6 +412,7 @@ div.mission__hours p.center.bold {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 14px;
   }
 
   .donate__note {
@@ -447,7 +466,7 @@ box-shadow: 0.5rem 0.5rem #2F3B2B;
 .donate__dont {
   /* border: 1px solid #2F3B2B; */
   padding: 20px;
-  width: 50%;
+  /* width: 50%; */
 /* width: 50%; */
   /* min-width: 440px; */
   margin: 20px;
@@ -515,6 +534,28 @@ background: linear-gradient(0deg, rgba(255,192,153,1) 0%, rgba(255,98,1,1) 100%)
     margin-bottom: 20px;
   }
 
+  /* fashion show */
+
+  .fashion__intro--fun {
+    text-shadow: #7EBDC2 6px 6px;
+    color: #FFC099;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .fashion__text {
+    margin-bottom: 20px;
+  }
+  .fashion__text p {
+    padding-bottom: 12px;
+  }
+  .fashion__text li {
+    list-style: decimal;
+    padding-bottom: 8px;
+  }
+
 /* footer */
 .footer {
     padding: 40px 0 40px 0;
@@ -551,6 +592,11 @@ and (min-width : 481px) and (max-width: 786px) {
  .aboutus__content {
           flex-direction:column;
         }
+
+.fashion__intro--fun {
+    font-size: 60px;
+    line-height: 80px;
+  }
 }
 /* --------------------------------------- */
 @media only screen
@@ -562,11 +608,18 @@ and (min-width : 481px) and (max-width: 786px) {
          .nav {
           flex-wrap:nowrap;
         }
-      }
+      
       .donate__do,
 .donate__dont {
   width: 100%;
 }
+.fashion__intro--fun {
+    font-size: 120px;
+    line-height: 140px;
+  }
+      }
+
+
 /* --------------------------------------- */
 
 @media only screen
@@ -664,6 +717,8 @@ and (min-width : 481px) {
       .donate__early-drop-right {
         margin-top:20px;
       }
+
+       
      
      
 
