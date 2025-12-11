@@ -351,6 +351,12 @@ div.mission__hours p.center.bold {
   padding-bottom: 12px;
   
 }
+.mission__hours--holiday {
+  margin-bottom: 20px;
+}
+.mission__hours--holiday img {
+  max-width:100%;
+}
 .donation__update {
   padding-bottom: 12px;
 }
