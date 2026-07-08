@@ -421,6 +421,9 @@ div.mission__hours p.center.bold {
   .mission__text {
     color: #2F3B2B;;
   }
+  .mission__note {
+    font-size: 12px !important;
+  }
   .survey__survey {
     padding: 30px;
     margin-bottom: 40px;
