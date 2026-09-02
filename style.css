@@ -423,6 +423,8 @@ div.mission__hours p.center.bold {
   }
   .mission__note {
     font-size: 12px !important;
+    line-height: 14px !important;
+    margin-top: 20px;
   }
   .survey__survey {
     padding: 30px;
